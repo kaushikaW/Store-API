@@ -1,11 +1,11 @@
 # Documentation
 # Store API
 
-## Get all customer details:
+## 1. Get all customer details:
 ### GET
 http://localhost:8080/api/v1/customers
 
-## Create a customer
+## 2. Create a customer
 ### POST
 http://localhost:8080/api/v1/customers
 
@@ -21,7 +21,7 @@ http://localhost:8080/api/v1/customers
 ````
 Succsess message: ```customer created :successfully```
 
-## get all active orders by customer ID
+## 3. get all active orders by customer ID
 ### GET
 http://localhost:8080/api/v1/orders/activeOrders/userId
 
@@ -58,7 +58,7 @@ output:
     ]
 ]
 ````
-## update customer by id
+## 4. update customer by id
 ### PUT
 http://localhost:8080/api/v1/customers/userId
 
@@ -87,7 +87,7 @@ respone:
     "isActive": true
 }
 ````
-## delete customer by id
+## 5. delete customer by id
 ### DELETE
 http://localhost:8080/api/v1/customers/customerId
 
